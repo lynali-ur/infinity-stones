@@ -1,2 +1,0 @@
-# inifinity-stones
-Space stone
