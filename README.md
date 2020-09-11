@@ -1,3 +1,3 @@
-# inifinity-stones
+# infinity-stones
 neal-stone
 Space stone
