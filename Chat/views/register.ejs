@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Bootstrap style sheet-->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <style>
+            body {
+                display : -ms-flexbox;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background-color: whitesmoke;
+            }
+        </style>
+
+        <title>FSE Chat Room</title>
+    </head>
+
+    <body class = "mt-5">
+        <h4 class = "h3 mb-3 text-center">Please sign up</h4>
+        <div class = "d-flex justify-content-center">
+           <form class = "form-signin" method = "POST">
+               <label>Username</label>
+               <input type = "text" name = "username" class = "form-control" placeholder = "Username" required autofocus>
+               <label>Password</label>
+               <input type = "password" name = "password" class = "form-control" placeholder = "Password" required>
+               <br>
+               <button class = "btn-primary btn-lg btn-block" type = "submit">Register</button>
+               <small class = "form-text text-muted">Already have an account?
+                    <b><a href = "/">LOG IN</a></b>
+               </small>
+            </form> 
+        </div>
+        
+    </body>
+</html>
